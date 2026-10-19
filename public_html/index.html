@@ -3,7 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>akash@devops:~$</title>
+<title>Akash Chadhokar | DevOps Engineer &amp; COLTech Learning</title>
+<meta name="description" content="Akash Chadhokar, Sr. DevOps Engineer and founder of COLTech Learning Community. Join SwitchLab, a 90-day Cloud and DevOps career switch cohort.">
+<meta property="og:title" content="Akash Chadhokar | DevOps Engineer &amp; COLTech Learning">
+<meta property="og:description" content="Join SwitchLab, a 90-day Cloud and DevOps career switch cohort.">
+<meta property="og:image" content="https://kashakash.in/images/banner.jpg">
+<link rel="icon" href="images/coltech-icon.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -234,6 +239,26 @@
     font-family:var(--mono); font-size:12px; color:var(--text-dim); margin-top:10px; flex-wrap:wrap;
   }
   .banner-caption .cta{color:var(--green);}
+
+  /* ---------- SwitchLab button + popup ---------- */
+  .nav-cta{flex-shrink:0; font-family:var(--mono); font-size:12px; font-weight:600; color:#04321c; background:var(--green); padding:7px 14px; border-radius:6px; white-space:nowrap; text-decoration:none;}
+  .nav-cta:hover{opacity:.9;}
+  .nav-cta:focus-visible, .sl-btn:focus-visible, .sl-close:focus-visible, .sl-later:focus-visible{outline:2px solid #5FA8F5; outline-offset:3px;}
+  @media (max-width:560px){.topbar-user{display:none;}.topbar-inner{padding:0 12px;}}
+  dialog.sl{border:1px solid var(--border); border-radius:12px; background:var(--surface); color:var(--text); padding:0; width:min(440px, calc(100vw - 32px)); margin:auto;}
+  dialog.sl::backdrop{background:rgba(4,7,12,.72);}
+  .sl-body{padding:28px 26px 24px; position:relative;}
+  .sl-close{position:absolute; top:10px; right:10px; background:none; border:none; color:var(--text-dim); font-size:22px; line-height:1; width:36px; height:36px; cursor:pointer; border-radius:6px;}
+  .sl-close:hover{color:var(--text); background:var(--surface-2);}
+  .sl-tag{font-family:var(--mono); font-size:12px; color:var(--green);}
+  .sl h2{font-size:26px; line-height:1.2; color:#fff; margin:8px 0 10px; font-weight:700;}
+  .sl p{color:var(--text-muted); font-size:15px; line-height:1.6;}
+  .sl-facts{font-family:var(--mono); font-size:13px; margin:16px 0 20px; color:var(--text);}
+  .sl-facts span{color:var(--text-dim);}
+  .sl-btn{display:block; text-align:center; background:var(--green); color:#04321c; font-weight:700; font-size:16px; padding:13px 20px; border-radius:8px; text-decoration:none;}
+  .sl-btn:hover{opacity:.9;}
+  .sl-later{display:block; margin:12px auto 0; background:none; border:none; color:var(--text-dim); font-size:13px; cursor:pointer; font-family:var(--mono);}
+  .sl-later:hover{color:var(--text-muted);}
 </style>
 </head>
 <body>
@@ -253,6 +278,7 @@
       <button data-target="projects">ps</button>
       <button data-target="connect">connect</button>
     </div>
+    <a class="nav-cta" href="cohort/">Join SwitchLab</a>
   </div>
   <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
 </nav>
@@ -305,12 +331,12 @@
 
 <section class="banner-section reveal">
   <div class="wrap">
-    <a class="banner-frame" href="https://chat.whatsapp.com/Fc5KWt6gnz05NIDgesYHXK" target="_blank" rel="noopener">
-      <img src="images/banner.png" alt="Akash Chadhokar — DevOps Engineer, founder of COLTech Learning Community">
+    <a class="banner-frame" href="cohort/" target="_blank" rel="noopener">
+      <img src="images/banner.jpg" alt="Akash Chadhokar — DevOps Engineer, founder of COLTech Learning Community">
     </a>
     <div class="banner-caption">
       <span>COLTech Learning Community — a community for DevOps &amp; cloud professionals</span>
-      <span class="cta">→ tap to join</span>
+      <span class="cta">→ join SwitchLab</span>
     </div>
   </div>
 </section>
@@ -439,10 +465,10 @@ Supported cloud migration, networking, and platform operations.</div>
           <a class="social-icon" href="https://instagram.com/coltechlearning" target="_blank" rel="noopener" aria-label="Instagram">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
           </a>
-          <a class="social-icon" href="https://linkedin.com/in/yourhandle" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <a class="social-icon" href="https://www.linkedin.com/in/akash-chadhokar" target="_blank" rel="noopener" aria-label="LinkedIn">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM3.2 8.75h3.5V21h-3.5V8.75zM9.5 8.75h3.35v1.68h.05c.47-.88 1.6-1.8 3.3-1.8 3.53 0 4.18 2.32 4.18 5.35V21h-3.5v-6.03c0-1.44-.03-3.28-2-3.28-2.01 0-2.32 1.57-2.32 3.18V21H9.5V8.75z"/></svg>
           </a>
-          <a class="social-icon" href="https://youtube.com/@yourhandle" target="_blank" rel="noopener" aria-label="YouTube">
+          <a class="social-icon" href="https://www.youtube.com/@ColTechLearning" target="_blank" rel="noopener" aria-label="YouTube">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="5.5" width="19" height="13" rx="3.5"/><path d="M10.5 9.5l5 2.5-5 2.5v-5z" fill="currentColor" stroke="none"/></svg>
           </a>
         </div>
@@ -630,6 +656,34 @@ Supported cloud migration, networking, and platform operations.</div>
   }
   resize(); initNodes(); drawBg();
   window.addEventListener('resize', () => { resize(); initNodes(); if (reduceMotion) drawBg(); }, { passive:true });
+</script>
+
+<dialog class="sl" id="slDialog" aria-labelledby="slTitle">
+  <div class="sl-body">
+    <button class="sl-close" id="slClose" aria-label="Close">&times;</button>
+    <div class="sl-tag">90-day cohort</div>
+    <h2 id="slTitle"><span data-c="name">SwitchLab</span>: switch into Cloud &amp; DevOps</h2>
+    <p>A structured 90-day cohort for working professionals who want to change careers without quitting their job first.</p>
+    <div class="sl-facts"><span>starts</span> <b data-c="start">1 November 2026</b></div>
+    <a class="sl-btn" href="cohort/" id="slJoin">See details and join</a>
+    <button class="sl-later" id="slLater">Maybe later</button>
+  </div>
+</dialog>
+<script src="config.js"></script>
+<script>
+(function(){
+  var d = document.getElementById('slDialog'), KEY = 'switchlab_popup_hidden_until';
+  if (!d || typeof d.showModal !== 'function') return;
+  function hidden(){ try { return Date.now() < Number(localStorage.getItem(KEY) || 0); } catch(e){ return false; } }
+  function snooze(days){ try { localStorage.setItem(KEY, String(Date.now() + days*864e5)); } catch(e){} }
+  function close(days){ snooze(days); d.close(); }
+  setTimeout(function(){ if (!hidden() && !d.open) d.showModal(); }, 30000);
+  document.getElementById('slClose').addEventListener('click', function(){ close(3); });
+  document.getElementById('slLater').addEventListener('click', function(){ close(3); });
+  document.getElementById('slJoin').addEventListener('click', function(){ snooze(30); });
+  d.addEventListener('cancel', function(){ snooze(3); });
+  d.addEventListener('click', function(e){ if (e.target === d) close(3); });
+})();
 </script>
 </body>
 </html>
